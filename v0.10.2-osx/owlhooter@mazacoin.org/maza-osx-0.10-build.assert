@@ -1,12 +1,12 @@
 --- !omap
 - out_manifest: |
-    390e7132ed1e135fc10fcb71ea0642586e2342eedcdcaa11a10cb96cf48d5904  maza-0.10.2-osx-unsigned.dmg
-    91c91c2e3a99fb99bc57111ad84fa9555fa3ef2e2faf0ef7e45e4fa691ab19fe  maza-0.10.2-osx-unsigned.tar.gz
-    d3a8d82ab263f0d3a9bd302f78f89279c8bebe5c7892ec373df7541842348fc3  maza-0.10.2-osx64.tar.gz
+    8073c532686eb491486b74566f9c3303507a72b7e9b5002f2a59ccd03e4da2bd  maza-0.10.2-osx-unsigned.dmg
+    ba34c69d446adcc9b93ae1cf6d00d647bb4562d73971021d17abf34d1da9ae12  maza-0.10.2-osx-unsigned.tar.gz
+    d911de76eca3a58bfbcca7f278ea822a90fe3c9c7093054c7d44602e115bd7c8  maza-0.10.2-osx64.tar.gz
     18ed17e6a2f931c614e5ae9fd24843af08e848344fc5afa9015ef86e7525c5ed  src/maza-0.10.2.tar.gz
 - in_manifest: |-
     300edc1b1600e75f4899f83b1b2842c3947d8253249f1665e7271bc981d27ba5  maza-osx-0.10-desc.yml
-    1dc32189f25f7e2896ed546ef49edb3561bc0214b9383dbe51a7433968050c0f  MacOSX10.9.sdk.tar.gz
+    39c7b1726cbdfd25b66738bfeef1cbe03c5bcdde3fdd1d5b53a4f2afbbf0b1c1  MacOSX10.9.sdk.tar.gz
     git:97d2cfa6b8cadab9d52643a9d82e27d10952c725 maza
 - base_manifests: !omap
   - precise-amd64: |
@@ -471,7 +471,7 @@
     bf8d187c67989edba2e47c5158942bbe2d4cb2cd995f216115cb442a56c15515  x86_64-apple-darwin11/protobuf/protobuf-2.5.0-7f55536f44e.tar.gz
     971955b3cde5a11cc5fd9016e3d1acb8188106acfd6fc7a354a2af472fa5e5f0  x86_64-apple-darwin11/qrencode/qrencode-3.4.3-41bcb638076.tar.gz
     9cc64b96871684105dbb1f1d41f8c307a046990074f91d6107cff0a2c8df2145  x86_64-apple-darwin11/qt/qt-5.2.1-8733df4390f.tar.gz
-- release: v.0.10.2-osx
+- release: v0.10.2-osx
 - name: maza-osx-0.10
 - type: build
 - optionals: 
